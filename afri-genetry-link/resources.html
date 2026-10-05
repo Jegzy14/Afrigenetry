@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resources | AfriGenetry Link</title>
+    <meta name="description" content="Browse resources, articles, reports and learning materials from AfriGenetry Link and related research communities." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a href="index.html" class="logo" aria-label="AfriGenetry Link home page"><span class="logo-mark">A</span><span class="logo-text">AfriGenetry<br />Link</span></a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="about.html">About</a>
+          <a href="research.html">Research</a>
+          <a href="programs.html">Programs</a>
+          <a href="events.html">Events</a>
+          <a href="resources.html" class="is-active">Resources</a>
+          <a href="opportunities.html">Opportunities</a>
+          <a href="partnerships.html">Partnerships</a>
+          <a href="contact.html" class="btn btn--primary nav-cta">Connect With Us</a>
+        </nav>
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+      </div>
+      <div class="mobile-menu" aria-label="Mobile navigation">
+        <div class="mobile-menu__head"><a href="index.html" class="logo"><span class="logo-mark">A</span><span class="logo-text">AfriGenetry<br />Link</span></a><button class="nav-toggle mobile-menu__close" type="button" aria-label="Close menu">✕</button></div>
+        <nav class="mobile-nav" aria-label="Mobile menu links"><a href="about.html">About</a><a href="research.html">Research</a><a href="programs.html">Programs</a><a href="events.html">Events</a><a href="resources.html">Resources</a><a href="opportunities.html">Opportunities</a><a href="partnerships.html">Partnerships</a><a href="contact.html" class="btn btn--primary">Get Involved</a></nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero__inner fade-up">
+          <span class="section-label">Resources</span>
+          <h1>Learning materials, publications and practical public-health guidance.</h1>
+          <p>Helpful resources are designed to support new understanding across research, education and innovation.</p>
+        </div>
+      </section>
+
+      <section class="section section--tight">
+        <div class="container">
+          <div class="search-wrap fade-up">
+            <span aria-hidden="true">⌕</span>
+            <input class="search-input" type="search" placeholder="Search resources..." data-target=".filter-target" aria-label="Search resources" />
+          </div>
+          <div class="filter-bar fade-up" aria-label="Resource filters">
+            <button type="button" class="filter-chip is-active" data-filter="all" data-target=".filter-target" aria-pressed="true">All</button>
+            <button type="button" class="filter-chip" data-filter="research" data-target=".filter-target" aria-pressed="false">Research</button>
+            <button type="button" class="filter-chip" data-filter="publications" data-target=".filter-target" aria-pressed="false">Publications</button>
+            <button type="button" class="filter-chip" data-filter="education" data-target=".filter-target" aria-pressed="false">Education</button>
+            <button type="button" class="filter-chip" data-filter="events" data-target=".filter-target" aria-pressed="false">Events</button>
+          </div>
+          <div class="results-meta fade-up">0 results found</div>
+          <div class="empty-state">No matching resources found.</div>
+
+          <div class="resource-grid">
+            <article class="resource-card filter-target fade-up" data-category="research">
+              <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=900&q=80" alt="Scientific research resource" />
+              <div class="resource-card__content">
+                <div class="resource-card__meta">Research</div>
+                <h3>Research overview</h3>
+                <p>[Resource description to be provided.]</p>
+                <a href="publications.html" class="link-arrow">Read resource <span>→</span></a>
+              </div>
+            </article>
+            <article class="resource-card filter-target fade-up" data-category="education">
+              <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" alt="Training and education in science" />
+              <div class="resource-card__content">
+                <div class="resource-card__meta">Education</div>
+                <h3>Learning guide</h3>
+                <p>[Resource description to be provided.]</p>
+                <a href="publications.html" class="link-arrow">Read resource <span>→</span></a>
+              </div>
+            </article>
+            <article class="resource-card filter-target fade-up" data-category="publications">
+              <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=80" alt="Publications and documents" />
+              <div class="resource-card__content">
+                <div class="resource-card__meta">Publications</div>
+                <h3>Publications archive</h3>
+                <p>[Resource description to be provided.]</p>
+                <a href="publications.html" class="link-arrow">Read resource <span>→</span></a>
+              </div>
+            </article>
+            <article class="resource-card filter-target fade-up" data-category="events">
+              <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=900&q=80" alt="Conference and event resource" />
+              <div class="resource-card__content">
+                <div class="resource-card__meta">Events</div>
+                <h3>Event highlights</h3>
+                <p>[Resource description to be provided.]</p>
+                <a href="events.html" class="link-arrow">Read resource <span>→</span></a>
+              </div>
+            </article>
+            <article class="resource-card filter-target fade-up" data-category="research">
+              <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80" alt="Scientific collaboration and data analysis" />
+              <div class="resource-card__content">
+                <div class="resource-card__meta">Research</div>
+                <h3>Research briefs</h3>
+                <p>[Resource description to be provided.]</p>
+                <a href="research.html" class="link-arrow">Read resource <span>→</span></a>
+              </div>
+            </article>
+            <article class="resource-card filter-target fade-up" data-category="education">
+              <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80" alt="Students learning about science" />
+              <div class="resource-card__content">
+                <div class="resource-card__meta">Education</div>
+                <h3>Science learning hub</h3>
+                <p>[Resource description to be provided.]</p>
+                <a href="opportunities.html" class="link-arrow">Read resource <span>→</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand"><a href="index.html" class="logo" style="color:#fff;"><span class="logo-mark">A</span><span class="logo-text">AfriGenetry<br />Link</span></a><p>Grounding African genomics and health research in collaboration, education and practical opportunity.</p></div>
+        <div class="footer-links"><h4>Explore</h4><ul><li><a href="about.html">About</a></li><li><a href="research.html">Research</a></li><li><a href="programs.html">Programs</a></li><li><a href="events.html">Events</a></li></ul></div>
+        <div class="footer-links"><h4>Resources</h4><ul><li><a href="publications.html">Publications</a></li><li><a href="resources.html">Resources</a></li><li><a href="opportunities.html">Opportunities</a></li></ul></div>
+        <div class="footer-links"><h4>Connect</h4><ul><li><a href="partnerships.html">Partnerships</a></li><li><a href="contact.html">Contact</a></li><li><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a></li></ul></div>
+      </div>
+      <div class="container footer-meta"><span>© 2026 AfriGenetry Link. This is an independent redesign concept.</span><div class="row"><a href="#">Privacy</a><a href="#">Terms</a></div></div>
+    </footer>
+    <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+    <script src="js/navigation.js" defer></script>
+    <script src="js/filters.js" defer></script>
+    <script src="js/search.js" defer></script>
+    <script src="js/forms.js" defer></script>
+    <script src="js/interactions.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
